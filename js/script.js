@@ -64,8 +64,8 @@ function updateTime() {
     currentTimeElement.textContent = timeString;
 }
 
-// Update the time immediately and then every second
 updateTime();
 setInterval(updateTime, 1000);
+
 
 

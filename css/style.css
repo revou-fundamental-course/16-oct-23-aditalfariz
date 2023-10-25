@@ -141,6 +141,24 @@ p,a,table{
     color : gray
 }
 
+.find-us{
+    display: flex;
+    padding: 2em 5em;
+    justify-content: space-between;
+}
+
+.img-maps {
+    width: 500px;
+    height: 300px;
+}
+
+.contact-logo {
+    color: #148fd7;
+    justify-content: end;
+    padding: 2em;
+    width: 50px;
+    height: 50px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -167,6 +185,13 @@ p,a,table{
     }
 
     
+
+    
 }
 
 
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
