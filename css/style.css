@@ -16,7 +16,7 @@
 }
 
 .menu-item{
-    padding: 2px 1em;
+    padding: 1em;
     border: 3px solid #148fd7;
     border-style: inset;
     min-width: 60px;
@@ -90,13 +90,13 @@ p,a,table{
     justify-content: space-between;
 }
 
-.headquarters{
+.product{
     padding: 3em;
     display: flex;
     justify-content:space-evenly;
 }
 
-.hq-items{
+.pr-items{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -122,17 +122,25 @@ p,a,table{
   }
 
 .square {
-    text-align: center;
+    text-align:justify ;
     height: 300PX;
     width: 600px;
-    border: 1px solid black;
+    border: 3px solid #0a5a88;
+}
+
+.square2 {
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    width: 600px;
 }
 
 
 
 .form{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly ;
+    flex: 1;
     
 }
 
@@ -155,6 +163,8 @@ input[type="date"]{
     width: 570px; 
     height: auto; 
     padding: 10px; 
+    background-color: #0a5a88;
+    color: white;
   }
 
 textarea,text{
@@ -201,8 +211,9 @@ textarea,text{
 .contact-logo {
     justify-content: end;
     padding: 2em;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
 }
 
 
@@ -223,11 +234,53 @@ textarea,text{
         margin-bottom: 14px;
     }
 
-    .hq-items{
+    .pr-items{
         flex-direction: column;
     }
 
-    .headquarters{
+    td{
+        padding: 10px;
+    }
+    input[type="text"]{
+        width: 300px; 
+        height: auto; 
+        padding: 5px; 
+      }
+    
+    input[type="date"]{
+        width: 300px; 
+        height: auto; 
+        padding: 5px; 
+      }
+    
+      input[type="submit"]{
+        width: 300px; 
+        height: auto; 
+        padding: 10px; 
+        background-color: #0a5a88;
+        color: white;
+      }
+    
+    textarea,text{
+        width: 300px;
+        height: auto;
+    }
+
+    .square {
+        text-align:justify ;
+        height: auto;
+        width: auto;
+        border: 3px solid #0a5a88;
+    }
+    
+    .square2 {
+        text-align: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+
+    }
+    .product{
         flex-direction: column;
     }
 
@@ -246,8 +299,3 @@ textarea,text{
 }
 
 
-@media only screen and (min-width: 1200px) {}
-@media only screen and (min-width: 600px) {}
-
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {}

@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MINI COURSE</title>
+    <link rel="icon" href="/assets/gudscare.ico">        
+
+    <title> GUD'SCARE</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header-wrapper">
+    <header class="header-wrapper" id="home">
         <div class="menu-logo">
             <img src="./assets/gudscare.png" alt="gudscare logo">
         </div>
         <div class="menu">
-            <a class="menu-item">Home</a>
-            <a class="menu-item">Our Profile</a>
-            <a class="menu-item">Search</a>
+            <a href="#home" class="menu-item">Home</a>
+            <a href="#product" class="menu-item">Profile</a>
             <a href="#message-us" class="menu-item">Message Us</a>
+            <a href="#find-us" class="menu-item">Find Us</a>
         </div>
     </header>
     
     <section class="fullscreen-slideshow">
         <div class="greetings">
-            <h2>HI! <span id="nama_visitor">Guest</span>, WELCOME TO GUD'SCARE WEBSITE!</h2>
-            <p>Gudscare merupakan tempat cuci sepatu di Kota Batu, kami telah berdiri sejak 2021 dan terus mengembangkan pelayanan kami sebaik mungkin. Anda dapat melihat status laundry anda pada menu search dan dapat menghubungi kami bila ada kendala pada menu message us.</p>
+            <h2>Hi! <span id="nama_visitor">Guest</span>, Welcome to Gudscare Website!</h2>
+            <p>Gudscare merupakan tempat cuci sepatu di Kota Batu, kami telah berdiri sejak 2021 dan terus mengembangkan pelayanan kami sebaik mungkin. Anda dapat melihat status laundry anda pada menu profile dan dapat menghubungi kami bila ada kendala pada menu message us.</p>
         </div>
         <div >
            
@@ -40,23 +42,23 @@
     </section>
 
     <hr>
-    <h1>GUDSCARE</h1>
-    <section class="headquarters">
+    <h1>GUDSCARE FEATURE</h1>
+    <section class="product" id="product">
         
-        <div class="hq-items">
+        <div class="pr-items">
             <div class="circle"><img src="assets/sepatu.png" alt="bersih"></div>
             <h3>Sepatu Bersih</h3>
             <p>Proses pencucian yang detail hingga kebagian sepatu terdalam.</p>
         </div>
 
-        <div class="hq-items">
+        <div class="pr-items">
             <div class="circle"><img src="assets/aman.png" alt="bersih"></div>
             <h3>Sepatu Aman</h3>
             <p>Dicuci dengan peralatan dan sabun khusus yang aman untuk material sepatu.</p>
 
         </div>
         
-        <div class="hq-items">
+        <div class="pr-items">
             <div class="circle"><img src="assets/parfum.png" alt="bersih"></div>
             <h3>Sepatu Wangi</h3>
             <p>Menggunakan pewangi sepatu yang terbaik dan wangi tahan lama.</p>
@@ -105,6 +107,7 @@
             </tr>
         </table>
             <input type="submit" value="Submit" />
+
             
     </form>
 
@@ -112,8 +115,10 @@
     
     <div class="form-right">
     <div class="square">
+    <div class="square2"><h2>Current Time: <span id="current-time"></span></h2></div>
     <table>
-        <p>Current Time: <span id="current-time"></span></p>
+        
+
         <tr>
             <td>Nama</td>
             <td>:</td> 
@@ -144,7 +149,7 @@
     
   
     <hr>
-    <section class="find-us">
+    <section class="find-us" id="find-us">
     <h1 class="find-us-text">FIND US ON :</h1>
     <div class="find-us-logo">
         <a href="https://maps.google.com?q=GDG.WASH,%20Griyashanta,%20Jl.%20Agus%20Salim%20No.12,%20Sisir,%20Batu,%20Batu%20City,%20East%20Java%2065314&ftid=0x2e7881a9a32b79e1:0xd685542414be34a5&hl=id-ID&gl=id&entry=gps&lucs=,47071704"><img class="contact-logo" src="assets/location.png"></a>
